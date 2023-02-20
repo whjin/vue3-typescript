@@ -14,7 +14,7 @@ export class Canvas2D {
   
       this.context.fillText(text, centerX, centerY);
   
-      this.context.strokeStyle = "blue";
+      this.context.strokeStyle = "green";
   
       this.context.strokeText(text, centerX, centerY);
   

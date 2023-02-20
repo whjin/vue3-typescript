@@ -34,7 +34,7 @@ if (canvas === null) {
 }
 
 let canvas2d: canvas2DUtil = new canvas2DUtil(canvas);
-canvas2d.drawText("Hello World");
+// canvas2d.drawText("Hello World");
 
-// let canvas2d1: Canvas2D = new Canvas2D(canvas);
-// canvas2d1.drawText("Hello World From Module");
+let canvas2d1: Canvas2D = new Canvas2D(canvas);
+canvas2d1.drawText("Hello World From Module");
