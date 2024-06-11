@@ -14,7 +14,7 @@ cd dist
 # 提交gh-pages分支
 git add .
 git commit -m "提交部署gh-pages分支"
-git push origin gh-pages
+git push -f origin gh-pages
 
 # 按任意键关闭
 echo "按任意键关闭"
