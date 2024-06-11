@@ -1,3 +1,0 @@
-# typescript-canvas
-
-TypeScript Canvas
