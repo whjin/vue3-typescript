@@ -1,9 +1,6 @@
 #!/usr/bin/env sh
 
-# 发生错误时终止
-set -e
-
-# 构建
+# 构建 && 部署
 npm run build
 
 # 提交main主分支
