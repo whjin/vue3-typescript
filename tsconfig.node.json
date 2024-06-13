@@ -18,7 +18,7 @@
     "module": "commonjs",
     "allowJs": true,
     "moduleResolution": "node",
-    "strict": true,
+    "strict": false,
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,

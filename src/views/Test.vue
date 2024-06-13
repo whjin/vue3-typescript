@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    {{ counter }}
+    <button>{{ counter }}</button>
     <div v-for="item in items" :key="item.id">{{ item.name }}</div>
   </div>
 </template>
