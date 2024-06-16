@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as s}from"./index-DWa1Em5L.js";const c={},a={class:"about"},_=s("h1",null,"The AboutView Page",-1),n=[_];function r(i,d){return o(),t("div",a,n)}const u=e(c,[["render",r]]);export{u as default};
