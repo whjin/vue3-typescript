@@ -11,21 +11,9 @@
     "composite": true,
     "noEmit": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-    "types": [
-      "node"
-    ],
-    "target": "es6",
-    "module": "commonjs",
-    "allowJs": true,
-    "moduleResolution": "node",
-    "strict": false,
-    "jsx": "preserve",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "lib": [
-      "es6",
-      "dom"
-    ]
+
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": ["node"]
   }
 }
