@@ -1,15 +1,13 @@
 <template>
   <div class="about">
-    <h1>The AboutView Page</h1>
+    <PiniaStore />
   </div>
 </template>
 
+<script lang="ts" setup>
+import PiniaStore from './PiniaStore.vue';
+
+</script>
+
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
 </style>
