@@ -12,7 +12,7 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, defineProps, computed } from "vue";
+import { ref, computed } from "vue";
 import type { PropType } from "vue";
 import type { Todo, TitleInfo } from '../types';
 

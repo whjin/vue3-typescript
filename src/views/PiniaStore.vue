@@ -14,6 +14,7 @@
 <script lang="ts" setup>
 import { useAppStore } from "../stores/modules/useAppStore";
 import { storeToRefs } from "pinia";
+import http from "@/api/request";
 
 const store = useAppStore();
 
@@ -28,6 +29,10 @@ const changeInfo = () => {
     state.age += 20;
   });
 };
+
+http.get("/todos/1").then(res => {
+  console.log(res);
+});
 </script>
 
 <style lang="less" scoped></style>
