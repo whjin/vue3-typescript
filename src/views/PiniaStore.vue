@@ -35,4 +35,4 @@ http.get("/todos/1").then(res => {
 });
 </script>
 
-<style lang="less" scoped></style>
+<style lang="scss" scoped></style>
