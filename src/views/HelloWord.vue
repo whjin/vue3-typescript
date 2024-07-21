@@ -7,7 +7,6 @@
       <input type="text" v-model="todoName" @keydown.enter="addTodo(newTodo(todoName))" />
       <button @click="deleteNewTodo">delete</button>
     </div>
-    <div v-for="item in items" :key="item.id">{{ item.name }}</div>
   </div>
 </template>
 

@@ -19,7 +19,10 @@
     "dexie": "^4.0.8",
     "element-plus": "^2.7.5",
     "lodash": "^4.17.21",
+    "nanoid": "^5.0.7",
     "pinia": "^2.1.7",
+    "svg-arc-to-cubic-bezier": "^3.2.0",
+    "svg-pathdata": "^6.0.3",
     "tinycolor2": "^1.6.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
@@ -29,6 +32,7 @@
     "@types/crypto-js": "^4.2.2",
     "@types/lodash": "^4.17.6",
     "@types/node": "^20.12.5",
+    "@types/svg-arc-to-cubic-bezier": "^3.2.2",
     "@types/tinycolor2": "^1.4.6",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/tsconfig": "^0.5.1",
